@@ -1,5 +1,4 @@
 # Candidate-Profile
-cd into client and server's directory
-run "npm i && npm start" in both client and server directory
+cd into both client and server's directories to run "npm i && npm start".
 
 * check the demo videos if you are confused about these processes.
