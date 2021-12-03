@@ -2,12 +2,12 @@ import mongoose from 'mongoose';
 
 const postSchema = mongoose.Schema({
     State: String,
-    Party: String, //title
-    Office: String, //message
-    Name: String, 
+    Party: String,
+    Office: String, 
+    Name: String,
     Incumbent: [String],
     selectedFile: String,
-    likeCount: { // mark
+    likeCount: {
         type: String,
         default: "",
     },
